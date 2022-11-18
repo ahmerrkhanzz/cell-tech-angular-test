@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "PCAT-001",
+      "title_EN": "Toyota",
+      "title_FR": "Toyota",
+      "status": "active",
+      "parentId": null,
+      "children": [
+        {
+          "id": "CCAT-001",
+          "parentId": "PCAT-001",
+          "title_EN": "Corolla",
+          "title_FR": "Corolla",
+          "status": "active",
+          "children": [
+            {
+              "parentId": "CCAT-001",
+              "id": "GCAT-001",
+              "title_EN": "GLi",
+              "title_FR": "GLi",
+              "status": "active",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "CCAT-009",
+          "parentId": "PCAT-001",
+          "title_EN": "Aqua",
+          "title_FR": "Aqua",
+          "status": "active",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "PCAT-002",
+      "title_EN": "Honda",
+      "title_FR": "Honda",
+      "status": "inactive",
+      "parentId": null,
+      "children": [
+        {
+          "id": "CCAT-002",
+          "parentId": "PCAT-002",
+          "title_EN": "Civic",
+          "title_FR": "Civic",
+          "status": "inactive",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "PCAT-003",
+      "title_EN": "Suzuki",
+      "title_FR": "Suzuki",
+      "status": "active",
+      "parentId": null,
+      "children": [
+        {
+          "parentId": "PCAT-003",
+          "id": "CCAT-003",
+          "title_EN": "Swift",
+          "title_FR": "Swift",
+          "status": "inactive",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "PCAT-004",
+      "title_EN": "Nissan",
+      "title_FR": "Nissan",
+      "status": "active",
+      "parentId": null,
+      "children": [
+        {
+          "parentId": "PCAT-004",
+          "id": "CCAT-004",
+          "title_EN": "Note e-Power",
+          "title_FR": "Note e-Power",
+          "status": "inactive",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "PCAT-005",
+      "title_EN": "KIA",
+      "title_FR": "KIA",
+      "status": "inactive",
+      "parentId": null,
+      "children": [
+        {
+          "parentId": "PCAT-005",
+          "id": "CCAT-008",
+          "title_EN": "Stonic",
+          "title_FR": "Stonic",
+          "status": "inactive",
+          "children": []
+        },
+        {
+          "parentId": "PCAT-005",
+          "id": "CCAT-009",
+          "title_EN": "Sportage",
+          "title_FR": "Sportage",
+          "status": "inactive",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "PCAT-006",
+      "title_EN": "Changan",
+      "title_FR": "Changan",
+      "status": "inactive",
+      "parentId": null,
+      "children": [
+        {
+          "parentId": "PCAT-006",
+          "id": "CCAT-006",
+          "title_EN": "Alsvin",
+          "title_FR": "Alsvin",
+          "status": "inactive",
+          "children": []
+        },
+        {
+          "parentId": "PCAT-006",
+          "id": "CCAT-007",
+          "title_EN": "Oshan X7",
+          "title_FR": "Oshan X7",
+          "status": "active",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
